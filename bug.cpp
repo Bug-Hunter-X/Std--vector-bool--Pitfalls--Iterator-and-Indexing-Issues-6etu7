@@ -1,0 +1,1 @@
+std::vector<bool> is not a real vector.  It is implemented as a bitset, resulting in unexpected behavior when working with iterators and indexing.  Specifically, the size of each element is not one byte (as you might expect), but is implementation-defined and potentially smaller.
