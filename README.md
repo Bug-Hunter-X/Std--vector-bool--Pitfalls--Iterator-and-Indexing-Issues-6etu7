@@ -1,0 +1,1 @@
+This repository demonstrates a common, but easily overlooked, issue with std::vector<bool> in C++.  Because it's implemented as a bitset, its behavior deviates from the standard vector in significant ways. This can lead to subtle, hard-to-find bugs. The `bug.cpp` file shows problematic code that exemplifies this, and `bugSolution.cpp` provides a corrected approach.
